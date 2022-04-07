@@ -86,3 +86,74 @@ body {
         border: 2px solid #e75459;
         border-radius: 8px;
     }
+
+    .containerCad {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        color: darkred;
+    }
+
+    .cardCad  h1 {
+        color: darkred;
+        
+    }
+
+    .bannerCad {
+        height: 500px;
+        background-image: url("../projeto-iot-revolucionario-medeiros/Aula_HTML_CSS/imgs/bg-jelly-fish-para-home.png");
+        background-size: cover;
+    }
+
+    .bannerCad .cardCad {
+        background-color: rgba(240, 248, 255, 0.418);
+        height: 450px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .btnCad {
+        font-family: monospace;
+        margin-top: 10px;
+        border: 0;
+        font-weight: 600;
+        background-color: darkred;
+        color: white;
+        font-size: 18px;
+        border-radius: 4px;
+        padding: 10px 15px;
+
+    }
+
+    .nascimento {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    #dia {
+        height: 30px;
+        border: 2px solid #e75459;
+        border-radius: 8px;
+    }
+
+    #mes {
+        height: 30px;
+        border: 2px solid #e75459;
+        border-radius: 8px;
+    }
+
+    #ano {
+        height: 30px;
+        border: 2px solid #e75459;
+        border-radius: 8px;
+    }
+
+    .letrinhas {
+        font-size: 11px;
+        margin-left: 5%;
+    }
